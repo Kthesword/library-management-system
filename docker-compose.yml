@@ -1,0 +1,10 @@
+services:
+  library-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: library-management:latest
+    container_name: library_management_app
+    stdin_open: true
+    tty: true
+
